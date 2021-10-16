@@ -1,6 +1,6 @@
 <h1 align="center"> Calculadora IMC 🩺 </h1>
 
-<img src="https://img.shields.io/badge/v2.0-WEB-brightgreen" align="center"/>
+<div align="center"><img src="https://img.shields.io/badge/v2.0-WEB-brightgreen" /></div>
 
 ## Sobre o projeto :bookmark:
 
