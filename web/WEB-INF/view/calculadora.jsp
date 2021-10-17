@@ -6,7 +6,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="core" %>
-
+<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
 <core:url value="entrada?acao=Calcular" var="linkCalcular"/>
 <!DOCTYPE html>
@@ -39,8 +39,9 @@
                 </form>
                 <div class="d-inline-flex m-2">
                     <div>
+                        <fmt:formatNumber maxFractionDigits="2" var="IMCformat" value="${IMC}" />
                         <p>Resultado:</p>
-                        <input readonly value="${IMC}">
+                        <input readonly value="${IMCformat}">
                     </div>
                     <div>
                         <p>Classificação:</p>
