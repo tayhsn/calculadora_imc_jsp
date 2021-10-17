@@ -14,5 +14,13 @@
 
 :warning: Requisito: utilizar todos os recursos de segurança vistos em aula.
 
+
+
+## Classificação de IMC
+
+<img src="assets/classificacao_imc.jpeg" alt="Imagem com a classificação do IMC"/>
+
+<hr>
+
 ###### Desenvolvimento de Sistemas II @ SENAI/BA 2021.2
 
